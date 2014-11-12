@@ -1,0 +1,465 @@
+@charset "UTF-8";
+
+
+
+/*  =============   */
+/*  Main settings   */
+/*  =============   */
+
+
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #333333;
+	margin: 0px;
+	text-align: center;
+}
+a {
+	color: #330066;
+}
+iframe {
+	display: none;
+}
+#main {
+	width: 98%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding-bottom: 0px;
+	border: 1px solid #CCCCCC;
+}
+#main-footer {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	width: 100%;
+	clear: both;
+}
+#main-content .photoborder img {
+	margin-left: 20px;
+}
+
+
+
+/*  ============================   */
+/*  LU top and bottom links area   */
+/*  ============================   */
+
+
+
+#main-toplinks .left, #main-botlinks .left {
+	
+	margin-right: 20px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+#main-toplinks p, #main-botlinks p {
+	margin: 0px;
+	padding: 0px;
+}
+#main-toplinks .right, #main-botlinks .right {
+	
+	margin-left: 20px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	float: right;
+}
+#main-toplinks .clear, #main-botlinks .clear {
+	clear: both;
+	height: 1px;
+	width: 730px;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10%;
+}
+#main-toplinks a, #main-botlinks a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 100%;
+}
+#main-toplinks a:hover, #main-botlinks a:hover {
+	text-decoration: underline;
+}
+
+
+
+/*  =========   */
+/*  LU header   */
+/*  =========   */
+
+
+
+#main-header {
+	width: 100%;
+	padding-top: 20px;
+	background-color: #FFFFFF;
+}
+#main-header .leftbox {
+	float: left;
+	width: 200px;
+	margin-top: 0px;
+	margin-left: 20px;
+	_margin-left: 10px;  /*  Windows hack   */
+	font-size: 90%;
+	_font-size: 80%;  /*  Windows hack   */
+	color: #666666;
+	margin-bottom: 15px;
+	line-height: 120%;
+}
+
+#main-header .rightbox {
+	float: right;
+	width: 220px;
+	margin-top: 2px;
+	margin-right: 20px;
+	_margin-right: 20px;  /*  Windows hack   */
+	text-align: right;
+	margin-bottom: 15px;
+}
+#main-header .rightbox img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+
+/*  ==============   */
+/*  LU header menu   */
+/*  ==============   */
+
+
+
+#main-header-menu {
+	font-size: 10%;
+	height: 10px;
+	width: 100%;
+	clear: both;
+}
+#main-header-menu ul {
+	display: none;
+}
+
+#main-toplinks, #main-botlinks {
+	display: none;
+}
+#main-breadcrumb {
+	display: none;
+}
+
+
+
+/*  =============================   */
+/*  LU title and breadcrumb trail   */
+/*  =============================   */
+
+
+
+#main-title h1 {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-size: 180%;
+	background-color: #C5C5C5;
+	background-image: url(http://www.lboro.ac.uk/-images/print2-ttlbg.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#main-breadcrumb a {
+	color: #000000;
+	text-decoration: none;
+}
+#main-breadcrumb a:hover {
+	text-decoration: underline;
+}
+#main-breadcrumb p {
+	margin: 0px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+
+
+
+/*  ============   */
+/*  LU main menu   */
+/*  ============   */
+
+
+
+#main-menu {
+	display: none;
+}
+#main-menu ul {
+	display: none;
+}
+#main-menu li {
+	display: none;
+}
+#main-menu a {
+	display: none;
+}
+
+
+/*  ===============   */
+/*  LU main content   */
+/*  ===============   */
+
+
+
+
+#main-content {
+	width: 100%;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+
+#main-content h2 {
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 150%;
+}
+#main-content h3 {
+	font-size: 130%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-bottom: 2px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+ 
+#main-content h3 .light {
+	font-weight: normal;
+	font-size: 95%;
+}
+#main-content h4 {
+	font-size: 110%;
+	color: #666666;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main-content p {
+	line-height: 150%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#main-content li {
+	line-height: 150%;
+}
+#main-content ul {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main-content .padleft {
+	border: 1px solid #CCCCCC;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#main-content .border {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	margin-left: 20px;
+}
+#main-content .iframemap {
+	height: 300px;
+	width: 549px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+
+
+
+/*  Tabs inc. Prospectus tabs  */
+
+#main-content .tabs,
+#main-content #tabs-nav {
+	display: none !important;
+}
+
+#main-content .tab_container,
+#main-content #tabs-content,
+#main-content #tabs-content #general,
+#main-content #tabs-content #structure,
+#main-content #tabs-content #options {
+	width: 100%;
+	border-width: 0px;
+	border-style: none;
+	display: block !important;
+}
+#main-content #tabs-content h4 {
+	position: relative !important;
+	left: 0px !important;
+	margin-left: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#main-content #tabs-content h5 {
+	margin-left: 20px;	
+}
+#main-content .tooltips {
+	list-style-type: none;
+}
+#whychooseus {
+	display: block !important;
+	clear: both !important;
+}
+#main-content .tooltips li {
+	float: left;
+}
+#main-header-block h3 {
+	position: relative !important;
+	left: 0px !important;
+	color: #333 !important;
+	display: block !important;
+	border-width: 0px !important;
+	border-style: none !important;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+
+
+/*  Tables  */
+
+#main-content table {
+	width: 100%;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#main-content table td,
+#main-content table th {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#main-content table th {
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #EEE;		
+}
+
+
+#main-rightbox {
+	width: 94%;
+	font-size: 90%;
+	background-color: #EEEEEE;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#main-rightbox p {
+	line-height: 150%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#main-rightbox #cse-search-box {
+	display: none;
+}
+
+
+/*  =====   */
+/*  Misc.   */
+/*  =====   */
+
+
+
+.whitetxt {
+	color: #FFFFFF;
+}
+
+#eng-menu img, #science-menu img, #ssh-menu img {
+	border: 1px solid #CCCCCC;
+}
+.listbutton {
+	color: #FFFFFF;
+	background-color: #EEEEEE;
+	padding: 2px;
+	list-style-type: none;
+	border: 1px solid #CCCCCC;
+	width: 90%;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*  TABS  */
+
+.tab_container .tab_content {
+	display: block !important;
+}
+
+

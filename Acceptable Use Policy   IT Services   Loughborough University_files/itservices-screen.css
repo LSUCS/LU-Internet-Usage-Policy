@@ -1,0 +1,906 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#main-title {
+	width: 100%;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/ttlbg-it.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #1d4ad2;
+	font-size: 100%;
+	_font-size: 90%;
+}
+#site-footer {
+	font-size: 85%;
+	width: 920px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 20px;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #EEE;
+	clear: both;
+	text-align: center;
+	color: #666;
+}
+#site-footer a {
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+}
+#site-footer a:hover {
+	color: #1D4AD2;
+	text-decoration: underline;
+}
+.nounderline {
+	text-decoration: none;
+}
+
+.featurecolour1 {
+	color: #D4CADE;
+	font-weight: normal;
+}
+.featurecolour2 {
+	color: #1d4ad2;
+}
+#main-content h3 {
+	font-size: 1.6em;
+	color: #1d4ad2;
+	font-weight: normal;
+}
+#main-content h4 {
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#main-content h5 {
+	font-size: 1em;
+	color: #666;
+}
+#main-content h6 {
+	font-size: 0.9em;
+	color: #666;
+}
+#main .landinglink{
+	background-color: #EEE;
+	background-image: url(../images/ttlbg-it.jpg);
+	background-repeat: no-repeat;
+	background-position: -900px top;
+	display: block;
+	padding-left: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #333;
+	text-decoration: none;
+	line-height: 1.2;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+#main .landinglink:hover {
+	background-color: #DDD;
+}
+#main .landinglink h4 {
+	margin: 0px;
+	color: #1D4AD2;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+#main .landinglink p {
+	line-height: 1.2;
+	padding-top: 2px;
+	padding-right: 40px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main .landinglink span {
+	background-image: url(../images/feintarrow.png);
+	background-repeat: no-repeat;
+	display: block;
+	height: 60px;
+	width: 30px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-position: right top;
+	margin-left: 30px;
+}
+#main .landinglink:hover span {
+	background-position: left top;
+}
+.pagephoto img {
+	border: 1px solid #CCC;
+}
+
+
+#main-menu ul li span.currentbranch0 a,
+#main-menu ul li span.currentbranch0 a:hover {
+	color: #FFF;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/ttlbg-it.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-color: #1d4ad2;
+	display: block;
+}
+
+#main-menu ul li span.currentbranch1 a,
+#main-menu ul li span.currentbranch1 a:hover{
+	background-color: #5266a5;
+	color: #FFF;
+	display: block;
+}
+
+#main-menu ul li span.currentbranch2 a,
+#main-menu ul li span.currentbranch2 a:hover{
+	background-color: #CCC;
+	display: block;
+}
+
+
+#main-rightbox {
+	width: 170px;
+	margin-right: 20px;
+	padding-right: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-left: 0px;
+}
+#main-rightbox .rightbox {
+	background-color: #EEE;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#main-rightbox .rightbox h3 {
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+#main-rightbox .rightbox a {
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+}
+#main-rightbox .rightbox a:hover {
+	color: #1d4ad2;
+	text-decoration: underline;
+}
+#main-rightbox .rightbox .email {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-email.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#main-rightbox .rightbox .tel {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-tel.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+#main-rightbox .rightbox p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+#main-rightbox .rightbox form {
+	display: block;
+	height: 30px;
+	width: 150px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+#main-rightbox .rightbox form fieldset {
+	margin: 0px;
+	padding: 0px;
+	border-width: 0px;
+	border-style: none;
+}
+#main #main-rightbox .rightbox form #sitesearch_text {
+	display: block;
+	height: 24px;
+	width: 110px;
+	border: 2px solid #CCC;
+	position: absolute;
+	z-index: 100;
+	left: 0px;
+	top: 0px;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+#main #main-rightbox .rightbox form #sitesearch_text:hover {
+	border: 2px solid #aaa;
+}
+#main-rightbox .rightbox form .button {
+	display: block;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	z-index: 200;
+	top: 5px;
+	right: 8px;
+}
+
+
+/* Collapsible panels */
+
+h5.trigger {
+	display: block;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+	color: #999;
+	text-decoration: none;
+}
+h5.trigger a {
+	text-decoration: none;
+	display: block;
+	color: #999;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	clear: both;	
+}
+h5.trigger a:hover {
+	color: #666;
+}
+h5.active {
+	color: #333;
+	text-decoration: none;
+}
+
+
+
+h4.trigger {
+	display: block;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 10px;
+	padding-left: 30px;
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-faq.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	line-height: 1.3;
+}
+h4.trigger a {
+	text-decoration: none;
+	display: block;
+	font-weight: normal;
+	color: #333;
+}
+h4.trigger:hover {
+	color: #000;
+	background-color: #DDD;
+}
+h4.active {
+	color: #333;
+	text-decoration: none;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-faq-active.png);
+}
+
+
+
+
+.toggle_container {
+	padding: 0;
+	overflow: hidden;
+	width: 530px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.toggle_container .block {
+	width: 530px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+}
+.toggle_container .block p {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Links and downloads */
+
+.page {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/img/icons/icon-page.png);
+	background-position: 8px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 33px;
+	background-repeat: no-repeat;
+	-webkit-border-radius: 15px;
+    border-radius: 15px; 
+}
+.pdf {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/doc_pdf.png);
+	background-position: 5px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+.doc {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/doc_word.png);
+	background-position: 5px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+.ppt {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/doc_ppt.png);
+	background-position: 5px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+.xls {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/doc_excel.png);
+	background-position: 5px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+.link {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-link-alt.png);
+	background-position: 5px 5px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+.extlink {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-linkext-alt.png);
+	background-position: 5px 5px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+.biglink {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-biglink.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 50px;
+}
+.biglink strong {
+	color: #1d4ad2; 
+	font-size: 1.4em;
+	font-weight: normal;
+}
+.video {
+	color: #333;
+	text-decoration: none;
+	background-color: #EEE;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-video.png);
+	background-position: 5px 3px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	clear: both;
+}
+
+.link .light, .biglink .light  {
+	font-weight: lighter;
+}
+.pdf:hover, .page:hover, .doc:hover, .ppt:hover, .xls:hover, .link:hover, .extlink:hover, .biglink:hover, .video:hover {
+	color: #000;
+	background-color: #DDD;
+}
+
+
+
+
+
+/*  Rightbox  */
+
+#main-rightbox .links a {
+	display: block;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 18px;
+	margin: 0px;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-link-alt.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#main-rightbox .links .ext {
+	display: block;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 18px;
+	margin: 0px;
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-linkext-alt.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#main-rightbox .links h3 {
+	margin-bottom: 10px;
+}
+#main-rightbox .links .twitter {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-twitter.png);
+	padding-left: 23px;
+}
+#main-rightbox .links .facebook {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-facebook.png);
+	padding-left: 23px;
+}
+#main-rightbox .links .youtube {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-youtube.png);
+	padding-left: 23px;
+}
+#main-rightbox .links .rss {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-rss.png);
+	padding-left: 23px;
+}
+
+
+
+/* Instructions */
+
+.instructions {
+	background-color: #EEE;
+	display: block;
+	width: 530px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	position: relative;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	clear: both;
+}
+.instructions:hover {
+	background-color: #DDD;
+}
+.instructions a img {
+	border: 2px solid #CCC;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.instructions p {
+	display: block;
+	clear: both;
+}
+.instructions a img:hover {
+	border: 2px solid #1d4ad2;
+}
+.instructions span  {
+	font-size: 2em;
+	font-weight: bold;
+	color: #bbb;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	padding-top: 5px;
+	padding-left: 10px;
+	background-color: #EEE;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	border-radius: 0px 0px 10px 0px; 
+}
+.instructions .space  {
+	display: block;
+	width: 65px;
+	float: left;
+	height: 20px;
+}
+.instructions:hover span {
+	color: #999;
+}
+#main .instructions p {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 65px;
+	color: #333;
+	clear: both;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#main .instructions h4{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 65px;
+	color: #1d4ad2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: -10px;
+	margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+#ittab {
+	display: block;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	height: 35px;
+	width: 530px;
+	position: relative;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+#ittab a {
+	display: block;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #EEE;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	float: left;
+	height: 24px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #EEE;
+	border-right-color: #EEE;
+	border-left-color: #EEE;
+}
+#ittab a:hover {
+	background-color: #DDD;
+	border-top-color: #DDD;
+	border-right-color: #DDD;
+	border-bottom-color: #CCC;
+	border-left-color: #DDD;
+}
+#ittab a.selected {
+	background-color: #FFF !important;
+	color: #666 !important;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #FFF;
+	border-left-color: #CCC;
+}
+
+
+/*  Preformatted code  */
+
+#main-content pre {
+	background-color: #EEE;
+	display: block;
+	padding: 10px;
+	clear: both;
+	width: 510px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	white-space: pre-wrap;       /* CSS-3                  */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999    */
+	white-space: -pre-wrap;      /* Opera 4-6              */
+	white-space: -o-pre-wrap;    /* Opera 7                */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	font-size: 100%;
+}
+
+
+/*  Service availability  */
+
+#servicekey {
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+#servicekey p {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main .servicestitle{
+	margin: 0px;
+	padding-top: 10px;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #1D4AD2;
+}
+#servicekey p img {
+	padding-right: 10px;
+	padding-left: 5px;
+	height: 15px;
+	width: 15px;
+	margin-bottom: -2px;
+}
+#servicestatus tr td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	color: #999;
+}
+#servicestatus tr td strong {
+	color: #333;
+}
+#servicestatus tr {
+	background-color: #FFF;
+}
+#servicestatus tr:hover {
+	background-color: #EEE;
+}
+.buttonlink {
+	color: #666;
+	text-decoration: none;
+	background-color: #EEE;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.buttonlink:hover {
+	color: #000;
+	background-color: #DDD;
+}
+#servicestatus tr td .green {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/status-green.png);
+}
+#servicestatus tr td .blue {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/status-blue.png);
+}
+#servicestatus tr td .amber {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/status-amber.png);
+}
+#servicestatus tr td .red {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/status-red.png);
+}
+
+
+/*  Centre staff  */
+
+.centrestaff {
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.centrestaff .staffdetail {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 120px;
+	display: block;
+	position: relative;
+	background-color: #EEE;
+	height: 123px;
+	margin-bottom: 5px;
+}
+#main .centrestaff .staffdetail h4{
+	font-size: 1.3em;
+	font-weight: lighter;
+	margin-top: 2px;
+	margin-bottom: 10px;
+        color: #333;
+}
+.centrestaff .staffdetail h4 strong {
+	font-size: 0.8em;
+}
+
+.centrestaff .staffdetail p strong {
+	display: none;
+}
+#main .centrestaff .staffdetail p {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #666;
+}
+.centrestaff .staffdetail a {
+	color: #666;
+	text-decoration: none;
+}
+.centrestaff .staffdetail a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.centrestaff .staffdetail img {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: 2px solid #FFF;
+        width: 90px;
+        height: 120px;
+}
+
+
+/*  Contact page styles  */
+
+#main-content .email {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-email.png);
+	background-repeat: no-repeat;
+	background-position: left 4px;
+	display: block;
+	padding-left: 25px;
+}
+#main-content .tel {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-tel.png);
+	background-repeat: no-repeat;
+	background-position: left 4px;
+	display: block;
+	padding-left: 25px;
+}
+#main-content .location {
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/itservices/images/icon-location.png);
+	background-repeat: no-repeat;
+	background-position: left 4px;
+	display: block;
+	padding-left: 25px;
+}
+

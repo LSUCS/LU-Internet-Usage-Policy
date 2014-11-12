@@ -1,0 +1,190 @@
+/* ---- UNIVERSITY GOVERNANCE STYLESHEET ---- */
+
+
+/* ----- Homepage styles ----- */
+
+/*H1 background*/
+#main-title{background-image:url('/media/wwwlboroacuk/styleassets/sitespecific/rg-universitygovernance/images/h1-bg-committees.jpg');}
+
+
+/* Sidebar Features */
+
+#main-rightbox #sidebar-committees h4{color:#759;}
+#main-rightbox #sidebar-committees p {background-color:#759;}
+
+
+#main-rightbox #aboutusFeature h4{color:#759;}
+#main-rightbox #aboutusFeature p {background-color:#759;}
+
+
+/* Regulation, Ordinance and Statute listings */
+
+div.listing{
+	margin:20px 0 20px 0; 
+}
+
+div.listing a{
+        display:block;
+        margin-bottom:5px;
+        background-color:#EFEFEF;
+        text-decoration:none;
+        clear:both;
+        background-color:#EAEAEA;
+        cursor:pointer;
+        box-shadow: 0px 0px 0px #AAA;
+        -webkit-transition: box-shadow 0.2s linear;
+        -moz-transition: box-shadow 0.2s linear;
+        -o-transition: box-shadow 0.2s linear;
+        -ms-transition: box-shadow 0.2s linear;
+}
+
+div.listing a span{
+        padding:10px 10px 9px 10px;
+        width:130px;
+        display:block;
+        float:left;
+        margin-right:10px;
+        font-size:120%;
+        color:#666;
+}
+
+div.listing a p{
+        padding:9px 5px 10px 10px;
+        background-color:#F0F0F0;
+        float:left;
+        display:block;
+        width:353px;
+        margin:0px !important;
+}
+
+div.listing a:hover,
+div.listing a:active{
+        box-shadow: 3px 3px 5px #AAA;
+        border-color:#CCC;
+        background-color:#DDD;
+}
+
+div.listing a:hover p{
+  	background-color:#EAEAEA;
+}
+
+div.listing a:after{
+        content: "."; 
+        display: block; 
+        height: 0; 
+        font-size:0;	
+        clear: both; 
+        visibility:hidden;
+}
+
+a.archive{
+        display:block;
+        width:516px;
+        background-color:#F3F3F3;
+        padding:2px 5px 5px 5px;
+        border:1px solid #CCC;
+        color:#666; 
+        text-decoration:none;
+        margin-bottom:5px;
+        margin-top:10px;
+}
+
+a.archive:hover{
+        background-color:#EFEFEF;
+        border:1px solid #AAA;
+}
+
+a.archive span{
+	font-size:140%;
+	font-weight:bold;
+	color:#888;
+}
+
+.notice{
+	border-top:1px solid #D8D8D8;
+	border-bottom:1px solid #D8D8D8;
+	padding:0 10px 0 10px;
+	background-color:#F8F8F8;
+  	font-size:90%;
+}
+
+
+/* Governance homepage search styles */
+
+#main-content #search form {
+	margin: 0 0 1em;
+	padding: 0;
+	color: #666;
+}
+	
+#main-content #search fieldset{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+		
+#main-content #search .text {
+	background-position: 5px center !important; /* Override Google's default background image position */
+	border: 2px solid #ddd !important; /* Override Google's default border on Windows machines */
+	border-left: 0 !important;
+	color: #666;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.92em;
+	line-height: 1.25;
+	margin: 0;
+	height: 20px;
+	width: 250px;
+}
+		
+#main-content #search #site-search .text {
+	padding: 6px 5px 0 !important; /* Override Google's default padding on Windows machines */	
+}
+	
+#main-content #search ul{
+	list-style:none;
+	margin-top:10px;
+}
+
+#main-content #search p.radio {
+	margin: 0;
+	width: 240px;
+	position: relative;
+	font-size: 0.92em;
+}
+		
+#main-content #search p.radio label {
+	float: left;
+	line-height: 1.5;
+	margin: 0 10px 0.75em 0;
+	padding: 0;
+}
+			
+#main-content #search p.radio input {
+	float: left;
+	margin: 0 5px 0 0;
+			}	
+			
+#main-content #search p.radio #site,
+#main-content #search p.radio #ordinances,
+#main-content #search p.radio #regulations {
+	clear: both;
+}
+			
+#main-content #search p.radio span {
+	clear: both;
+}	
+		
+#main-content #search p.search-box label {
+	text-indent: -9999px;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #fff url(/media/wwwlboroacuk/styleassets/sitespecific/rg-universitygovernance/images/search-label.png) no-repeat 6px 6px;
+	border: 2px solid #ddd;
+	border-right: 0;
+	padding-bottom: 6px;
+}
+
+
+

@@ -1,0 +1,1199 @@
+/*=========================================*/
+/*---------- RG - COMMON STYLES -----------*/
+/*=========================================*/
+
+
+/* Default h1 header background */
+#main-title{background:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/h1-bg-rg.jpg) top left no-repeat;}
+
+
+/*=========================================================================*/
+/*-- CORPORATE STYLE OVERRIDES --------------------------------------------*/
+/*=========================================================================*/
+
+#site-footer{
+	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/sitefooter-bg.png);
+  	background-position:center 10px;
+  	background-repeat:no-repeat;
+  	border:none;
+  	padding-top:30px;
+}
+#main-footer{
+  	background-image: url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/alt-page-footer.gif);
+  	background-position:center bottom;
+  	background-repeat:no-repeat;
+  	border:none;
+}
+#site-footer p{color:#888; margin:0 !important;}
+#site-footer p a {color:#888; text-decoration:none; font-weight:bold;}
+#site-footer p a:hover {color:#B06;}
+
+/* Pre-content notice (used on intranet to warn of restrictions) */
+#main-precontent{
+	background-color:#bbb;
+	padding:5px 10px 5px 10px;
+	text-align:center;
+	font-size:110%;
+	margin-top:-10px;
+	color:#666;
+}
+
+
+/*=========================================================================*/
+/*-- GRID STYLES ----------------------------------------------------------*/
+/*=========================================================================*/
+
+/* Common styles for grid elements in all widths of content div */
+div.grid-container{float:left;position:relative;margin:0px -10px 0px -10px;}
+
+.grid-1x,
+.grid-2x,
+.grid-3x,
+.grid-4x,
+.grid-1x-padded,
+.grid-2x-padded,
+.grid-3x-padded,
+.grid-4x-padded{
+	float:left;
+	margin:10px 10px 10px 10px;
+	_margin:0px 5px 0px 5px;
+}
+
+.grid-1x-padded,
+.grid-2x-padded,
+.grid-3x-padded,
+.grid-4x-padded{
+	padding:10px 20px 10px 20px;
+  	background-color:#EEE;
+}
+
+
+/*=========================================================================*/
+/*-- LEFT MENU ------------------------------------------------------------*/
+/*=========================================================================*/ 
+
+/* ----- Level 1 ----- */
+/* 1st Level - hover */
+#main-menu ul li a:hover{
+        /*border-left: 5px solid #330066;*/
+        /*padding-left: 15px;*/
+}
+/* 1st Level - normal: in current branch */
+#main-menu ul li span.currentbranch0 a{
+	background-image:none;
+	margin:0;
+	/*height:auto;*/
+	color:#FFFFFF;
+	border:none;
+	margin-left:-20px;
+	margin-top:-5px;
+	margin-bottom:-5px;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size: 100%;
+}
+/* 1st Level - hover (when sub-section selected) */
+#main-menu ul li span.currentbranch0 a:hover{
+	background-color:transparent;
+}
+/* 1st Level - selected */
+#main-menu ul li span
+{
+	background-image:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/h1-bg-rg.jpg);
+	background-color:#CCC;
+	background-repeat: repeat;
+	background-position: left top;
+	color:#FFF;
+	font-size: 95%;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding-top: 4px;
+	padding-right: 0px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+/* ----- Level 2 ----- */
+/* 2nd Level - normal */
+#main-menu ul li ul li a
+{
+	/*width: 160px;*/
+	font-weight: normal;
+	font-size: 85%;
+	_font-size: 80%;  /*  IE hack   */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-left: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-color: #EEEEEE;
+	background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet1.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/* 2nd Level - hover */
+#main-menu ul li ul li a:hover {
+	background-color: #DDDDDD;
+	background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet1b.gif);
+	background-position: left center;
+	border-left:0;
+	padding-left:30px;
+}
+/* 2nd Level - selected */	
+#main-menu ul li ul li span {
+	/*width: 160px;*/
+	color: #333333;
+	font-weight: normal;
+	font-size: 85%;
+	_font-size: 80%;  /*  IE hack   */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 30px;
+	background-color: #DDDDDD;
+	background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet1b.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+/* 2nd Level - sub-section selected */
+#main-menu ul li span.currentbranch1 a{
+	background-image:none;
+	/*width:auto;*/
+	margin:0;
+	height:auto;
+	color:#333333;
+	border:none;
+	margin-left:-30px;
+	margin-top:-3px;
+	margin-bottom:-3px;
+	padding-left:30px;
+	padding-top:3px;
+	padding-bottom:3px;
+	background-image:none;
+	background-color:transparent;
+	font-size:100%;
+}
+
+/* ----- Level 3 ----- */
+/* 3rd Level - normal */
+#main-menu ul li ul li ul li a
+{
+	font-weight: normal;
+	font-size: 85%;
+	_font-size: 80%;  /*  IE hack   */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left:40px;
+	background-color: #EEEEEE;
+	background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet2.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/* 3rd Level - hover */
+#main-menu ul li ul li ul li a:hover {
+	padding-left:40px;
+	/*background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet2.gif);*/
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+/* 3rd Level - selected */	
+#main-menu ul li ul li ul li span {	
+	color: #333333;
+	font-size:100%;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #DDDDDD;
+	background-image: url(http://www.lboro.ac.uk/-images/submenu-bullet2.gif);
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+/* 3rd Level - sub-section selected */
+#main-menu ul li ul li ul li span.currentbranch2 a{
+	width:auto;
+	background-color:transparent;
+	border:none;
+}
+/* IE 6 fix */
+* html #main-rightbox{
+  	margin-left:5px;
+  	margin-right:5px;
+}
+
+
+/*=========================================================================*/
+/*-- GENERAL CONTENT STYLES -----------------------------------------------*/
+/*=========================================================================*/
+
+/* Standard content element styles */
+strong{
+	font-weight:bold; 
+}
+
+#main-content p{
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+#main-content strong{
+ 	font-weight:bold; 
+}
+#main-content div.mainImg img,
+#main-content img.mainImg{
+	border:1px solid #CCC;
+	margin-bottom:0px;
+}
+#main-content hr{
+	background-color:#CCC;
+	border:none;
+	border-top:1px solid #CCC;
+	color:#CCC;
+	height:1px;
+	margin-top:20px;
+}
+#main-content .notice{
+        margin-top: 10px;
+        margin-right: 0pt;
+        margin-bottom: 10px;
+        margin-left: 0pt;
+        background-color: #f3f3f3;
+  	padding:10px;      
+  	border:1px solid #CCC;      
+}
+
+.contentMeta{
+	font-size:70%;
+	color:#999;
+	padding:2px;
+	margin-bottom:3px;
+}
+
+
+/*------- List styles ---------*/
+#main-content ul li,
+#main-content ol li{
+	margin-bottom:0.5em;
+}
+
+
+/*------ Auto generated sub-section menus ----- */
+.autoMenu li{
+ 	list-style:none;
+}
+.autoMenu li a{
+  	display:inline-block;
+ 	text-decoration:none;
+  	font-size:110%;
+  	color:#666;
+  	font-weight:normal;
+  	padding:0 0 0 20px;
+  	border-radius:5px;
+  	background-image:url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/filetypeicons/default.png');
+  	background-repeat:no-repeat;
+	background-position:left 2px;
+}
+.autoMenu li a:hover{
+    	color:#333;
+
+}
+
+/*------- Heading styles ------*/
+#main-content h3{
+	margin-top:10px;
+	margin-bottom:5px;	
+	font-weight:bold;
+	color:#330066;
+}
+#main-content h4{
+	margin-bottom:3px;
+	margin-top:0px;
+	font-size:120%;
+	color:#BA2D45;
+}
+#main-content h5{
+	color:#444444;
+	font-size:110%;
+	font-weight:bold;
+	margin-bottom:-5px;
+}
+#main-content h6{
+	color:#606060;
+	margin-bottom:0px;
+	font-size:100%;
+}
+
+/* --- Next/previous section links --- */
+
+div.previousNextNav{
+	border-top:1px solid #CCC;
+	clear:both;
+	padding: 10px 0px 0px 0px;
+	margin: 20px 0px 20px 0px;
+	color:#888;
+	font-weight:bold;
+    	font-size:75%;
+}
+.previousSectionLink{
+	float:left;
+}
+.previousSectionLink a:before{
+	content:'« ';
+}
+.nextSectionLink{
+	float:right;
+}
+.nextSectionLink a:after{
+	content:' »';
+}
+
+
+/*=========================================================================*/
+/*-- TABLE STYLES ---------------------------------------------------------*/
+/*=========================================================================*/
+
+#main-content table{
+	margin:1em auto 1em auto;	
+	border-collapse:collapse;
+}
+
+#main-content table,
+#main-content table td,
+#main-content table th{
+	font-size:95%;
+	border:1px solid #ccc;
+	padding:7px;
+  	vertical-align:top;
+}
+
+#main-content table th{
+	background-color:#c0c0c0;
+  	background:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/th-bg.jpg) top left repeat-x;
+  	background-repeat:x-repeat;
+  	background-position:top left;
+        background-size:contain !important;
+}
+
+#main-content table td p{
+	margin:0.1em 0 0.1em 0 !important;
+}
+#main-content table th p{
+ 	margin:0 !important; 
+}
+
+#main-content table td ul,
+#main-content table td ol,
+#main-content table th ul,
+#main-content table th ol{
+	margin-left:7px;
+	padding-left:7px;
+}
+
+#main-content table td ul li,
+#main-content table td ol li,
+#main-content table th ul li,
+#main-content table th ol li{
+	margin-bottom:0.2em;
+}
+
+
+/*=========================================================================*/
+/*-- SIDEBAR STYLES -------------------------------------------------------*/
+/*=========================================================================*/
+
+#main-rightbox{
+  	padding-top:2px;
+}
+
+#main-rightbox h4{
+	font-size:95%;
+	margin-bottom:3px;
+	font-weight:bold;
+}
+#main-rightbox hr{
+	background-color:#CCC;
+	border:none;
+	border-top:1px solid #CCC;
+	color:#CCC;
+	height:1px;
+	margin-top:20px;
+  	margin-bottom:20px;
+}
+
+#main-rightbox ul{
+	margin:0px;
+	list-style:none;
+}
+
+#main-rightbox ul li{
+	padding-left:9px;
+	background:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/rightbox-ul.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 5px;
+  	margin-bottom:4px;
+}
+
+        
+/*Sidebar feature styles */
+#main-rightbox a.sidebar-Feature{
+        background:#FFF !important;
+	text-decoration:none;
+	display:block;
+	border:0px solid #aaa;
+	margin: 0px -1px 20px -1px;
+	padding:0px;
+	width: 192px;
+}
+
+#main-rightbox a.sidebar-Feature:hover{
+ 	text-decoration:none; 
+}
+#main-rightbox a.sidebar-Feature h4{
+	color:#666;
+  	font-weight:bold;
+       	background:#EEE !important;
+	padding:5px;
+	margin:0;
+	font-size:110% !important;
+}
+
+#main-rightbox a.sidebar-Feature img{
+	width:192px;
+	border-left:none;
+  	border-right:none;
+    	border-top:none;
+  	border-bottom:none;
+}
+#main-rightbox a.sidebar-Feature p{
+	background-color:#777; /*Override using ID */
+	font-size:95%;
+  	font-weight:normal;
+	color:#FFF !important;
+	padding:7px 5px 5px 5px;
+	margin:-4px 0 0 0;
+	border-left:1px solid #aaa;
+  	border-right:1px solid #aaa;
+    	border-top:none;
+  	border-bottom:none;
+}
+#main-rightbox a.sidebar-Feature div.findOutMore{
+	color:#444;
+  	font-size:95%;
+       	background:#EEE!important;
+	padding:4px 5px 4px 5px;
+	text-align:right;
+}
+
+
+#main-rightbox a.sidebar-Feature div.findOutMore span{
+	position:relative;
+	bottom:1px;
+}
+#main-rightbox .sidebar-Feature:hover h4,
+#main-rightbox .sidebar-Feature:hover .findOutMore{
+        background:#E0E0E0 !important;
+}
+
+#main-rightbox .section{	
+	margin-bottom:20px;
+	padding-bottom:5px;  	
+  	border:none;
+}
+
+#main-rightbox .section p{
+	margin:5px;
+}
+
+#main-rightbox .section h3{
+	font-size:120%;
+  	font-weight:bold;
+}
+
+
+#main-rightbox .section h4{
+	margin:0px 0px 5px 0px;
+	color:#333;
+	font-size:105%;
+}
+
+
+
+#main-rightbox .contact h4{
+	padding-left:25px;
+  	background-image:url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/map-pin.png');
+  	background-repeat:no-repeat;
+ 	background-position:8px 1px ;
+}
+#main-rightbox .section ul.contactList{
+ 	margin-bottom:10px;
+}
+#main-rightbox .section ul.contactList li{
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	padding-left:25px;
+	margin-bottom:3px;
+}
+#main-rightbox .section ul.contactList li.tel{
+	background-image:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/phone.png);
+}
+#main-rightbox .section ul.contactList li.email{
+	background-image:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/email.png);
+}
+
+#main-rightbox .email{
+	font-size:90%;
+}
+#main-rightbox .contact p{
+	padding-left:0px;
+  	margin-left:25px;
+	font-size:95%;
+}
+
+
+/* ---- Sidebar Search box ---- */
+
+.search{
+	background-color:#EFEFEF;
+	padding-top:5px;
+}
+
+.search h3{
+	margin-left:5px !important;
+}
+
+.search form {
+	margin: 0px;
+	padding:5px 0 5px 5px;
+	position: relative;
+	height: 24px;
+	width: 160px;
+}
+.search form fieldset {
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+
+.searchInput {
+	height: 17px;
+	width: 125px;
+	margin: 0px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	border: 2px solid #DDDDDD;
+	position: absolute;
+	left: 7px;
+	top: 0px;
+	background-color: #FFFFFF;
+}
+.searchInput:hover {
+	border: 2px solid #CCCCCC;
+}
+.search .button {
+	margin: 0px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	position: absolute;
+	top: 0px;
+	right: -15px;
+}
+
+
+/*=========================================================================*/
+/*-- UTILITY STYLES -------------------------------------------------------*/
+/*=========================================================================*/
+
+.right{float:right;}
+.left{float:left;}
+.clear{clear:both;}
+.border{border:1px solid #CCC;}
+.pad,
+.padded,
+.padding{
+	padding:5px;
+}
+.margin{margin:10px;}
+.margin-left{margin-left:20px;}
+.margin-right{margin-right:20px;}
+.margin-top{margin-top:10px;}
+.margin-bottom{margin-bottom:10px;}
+
+
+.boxLink{
+ 	display:inline-block;
+  	padding:5px 10px 5px 10px;
+  	border:1px solid #DDD;
+  	background-color:#EEE;
+  	text-decoration:none;
+  	color:#555;
+}
+.boxLink:hover{
+ 	border:1px solid #bbb;
+  	background-color:#ddd;
+  	color:#777;
+}
+
+/*=========================================================================*/
+/*-- GRID AND FEATURE STYLES ----------------------------------------------*/
+/*=========================================================================*/
+
+div.grid-container hr{
+	clear:both;
+	margin:20px 10px 0px 10px;
+}
+
+.feature h3{margin:0px;}
+.feature h4{margin:0px;}
+
+#main-content .feature ul li,
+#main-content .feature ol li{
+	margin-bottom:0;
+}
+
+#main-content .feature a.imgLink{
+	display:block;	
+	overflow:hidden;
+	width:100%;
+	border-color:#F00;
+	text-align:center;
+}
+#main-content .feature h4{
+	color:#555;
+	margin:0px 0px 15px 0px;
+	padding:0;
+	font-size:115%;
+	background-position: -225px 0px;
+	background-repeat:no-repeat;
+	border-bottom:1px solid #CCC;
+}
+#main-content .feature p{
+	margin:3px 0 0 0;
+	color:#555;
+}
+#main-content .feature h4 a{
+	text-decoration:none;
+	color:#FFF;
+}
+#main-content .feature h4 a:hover{
+	color:#dedede;
+}
+
+#main-content .feature ul.newsList {
+	margin-left:0px;
+  	padding-left:0px;
+  	list-style:none;
+}
+#main-content .feature .newsList li{
+  	padding-left:30px;
+	background:url(/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/images/listbullets/news-icon.gif);
+  	background-repeat: no-repeat;
+	background-position: 0px 2px;	
+}
+
+
+/* Landing page feature links (60x60 image, title, caption) */
+#main-content .featureLink{
+	margin-bottom:5px !important;
+	margin-top:5px !important;	
+  	overflow:auto;
+}
+#main-content .featureLink a{
+	color:#555;
+	font-size:110%;
+	display:block;
+	padding:0px 5px 0px 0px;
+	height:66px;
+	text-decoration:none;
+}
+#main-content .featureLink a img{
+	float:left;
+	margin:2px 5px 0px 0px;
+	border:1px solid #ccc;
+}
+
+#main-content .featureLink a em{
+	display:block;
+	font-style:normal;
+	font-size:85%;	
+	margin-top:2px;
+}
+#main-content .featureLink a:hover{
+	color:#777;
+}
+#main-content .featureLink a:hover img{
+ 	border:1px solid #aaa; 
+}
+
+
+/* Landing page signpost links (254x70 image, title, caption) */
+
+#main-content .signpostLink{
+	font-size:100%;
+	display:block;
+	text-decoration:none;
+  	margin-bottom:20px;
+  	min-height:150px;
+}
+
+#main-content .signpostLink img{
+	border:1px solid #CCC;
+}
+#main-content .signpostLink h4{
+	color:#904;
+  	margin-top:0 !important;
+}
+#main-content .signpostLink p{
+  	display: block;
+  	font-style: normal;
+  	font-size: 90%;
+  	margin: 0px;
+	color:#777;
+}
+
+#main-content .signpostLink:hover img{
+	color:#755;
+	border:1px solid #AAA;
+}
+#main-content .signpostLink:hover h4{
+	color:#c04;
+}
+#main-content .signpostLink:hover p{
+	color:#444;
+}
+
+
+/*=========================================================================*/
+/*-- MODULES AND ADDITIONAL STYLES ----------------------------------------*/
+/*=========================================================================*/
+
+
+/* ========== COLLAPSIBLE CONTENT AREAS ===================================*/
+
+      .collapsible{
+              margin-bottom:8px;
+              overflow:hidden;
+      }
+      
+      .collapsible-control{
+              border:1px solid #DDD;
+              font-weight:bold;
+              font-size:110%;
+              cursor:pointer;
+              background-image: url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/javascript/collapsibles/button-bg.png');
+              background-color:#ccc;
+              background-position:left 50%;
+              background-repeat:repeat-x;
+      }
+      .collapsible-control a{
+              display:block;
+              color:#EEE;
+              padding:7px 7px 7px 35px;
+              background-image: url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/javascript/collapsibles/collapsible-bg-arrow-collapsed.png');
+              background-position: 10px center;
+              background-repeat:no-repeat;
+  	      text-decoration:none;
+      }
+
+      .collapsible-control a:hover{
+  		color:#FFF;
+	}
+
+      .collapsible .expanded a{
+              background: url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/javascript/collapsibles/collapsible-bg-arrow-expanded.png');  
+              background-repeat:no-repeat;
+              background-position: 10px center;
+      }
+
+      .collapsible-content{
+            border:1px solid #DDD;
+            border-top:none;
+            padding:10px 20px 10px 20px;
+            background-color:#F8F8F8;
+      }
+      .collapsible-content div {
+              margin-bottom: 10px;
+              font-size: 90%;
+              color: #666;
+      }
+
+/* ============= FOOTER SITE INDEX =========================================*/
+
+
+/* Styles for the site index on landing pages */
+.siteIndex{
+	clear:both;
+  	width:940px;
+  	margin:20px 0 0 -20px;	
+	padding:10px 10px 10px 10px; 
+	background-color:#EFEFEF;
+  	border-top:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+  	background-position:center top;
+  	background-repeat:repeat;
+	color:#888;
+}
+.siteIndex h4{margin:5px 5px 0px 10px !important;color:#888!important;}
+.siteIndex a{text-decoration:none;color:#444;}
+.siteIndex a:hover{text-decoration:underline;}
+.siteIndexColumn{
+width:221px !important;
+	margin:5px 0px 10px 0px !important;
+	padding:0 4px 0 10px;
+	font-size:85%;
+}
+.siteIndexColumn p{margin-top:0px !important;color:#444;}
+.siteIndex .lastColumn{border:none;}
+.siteIndexColumn ul{
+	margin:0;
+	margin-bottom:15px;
+	padding:0;
+	padding-right:0 !important;
+	list-style:none;
+}
+.siteIndexColumn li{margin-bottom:2px !important;font-weight:bold;}
+.siteIndexColumn ul ul{padding-left:13px;}
+.siteIndexColumn ul ul li{list-style:square;font-weight:normal;}
+
+
+
+/* ============= DROPKICK SELECT STYLES =========================================*/
+
+
+/*---- Fixes for default styles (compensating for existing content styles) ----*/
+div.dk_container{margin:0 !important;}
+div.dk_container div.dk_options ul.dk_options_inner li{margin:0 !important;}
+div.dk_container div.dk_options ul.dk_options_inner{margin:0 !important}
+/* ----------------------------------------------------------------------------*/
+
+.dk_container {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f5f5f5));
+  background: -moz-linear-gradient(top, #fff, #f5f5f5);
+  background: -o-linear-gradient(top, #fff, #f5f5f5);
+  background-color: #f5f5f5;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  line-height: 14px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+  .dk_container:focus {
+    outline: 0;
+  }
+  .dk_container a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+/* Opens the dropdown and holds the menu label */
+.dk_toggle {
+  background-image: url('/media/wwwlboroacuk/styleassets/sitespecific/rg-academicregistry/shared/javascript/dropkick/images/dk_arrows.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px 35px 7px 10px;
+  text-shadow: #fff 1px 1px 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -webkit-transition: border-color .5s;
+  -moz-transition: border-color .5s;
+  -o-transition: border-color .5s;
+  transition: border-color .5s;
+}
+  .dk_toggle:hover {
+    border-color: #8c8c8c;
+  }
+  /* Applied when the dropdown is focused */
+  .dk_focus .dk_toggle {
+    border-color: #40b5e2;
+  }
+  .dk_focus .dk_toggle {
+    box-shadow: 0 0 5px #40b5e2;
+    -moz-box-shadow: 0 0 5px #40b5e2;
+    -webkit-box-shadow: 0 0 5px #40b5e2;
+  }
+
+/* Applied whenever the dropdown is open */
+.dk_open {
+  box-shadow: 0 0 5px #40b5e2;
+  -moz-box-shadow: 0 0 5px #40b5e2;
+  -webkit-box-shadow: 0 0 5px #40b5e2;
+  /**
+   * Help: Dropdown menu is covered by something
+   * Try setting this value higher
+   */
+  z-index: 10;
+}
+  .dk_open .dk_toggle {
+    background-color: #ececec;
+    border-color: #8c8c8c;
+    color: #ccc;
+    box-shadow: inset 0 -2px 5px #ccc;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+  }
+
+/* The outer container of the options */
+.dk_options {
+  box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, .2) 0 2px 8px;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+}
+  .dk_options a {
+    background-color: #fff;
+    border-bottom: 1px solid #999;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin:0 !important;
+    color:#444;
+  }
+  .dk_options li:last-child a {
+    border-bottom: none;
+  }
+  .dk_options a:hover,
+  .dk_option_current a {
+    background-color: #ddd;
+    color: #444;
+    text-decoration: none;
+    text-shadow: none;
+  }
+
+/* Inner container for options, this is what makes the scrollbar possible. */
+.dk_options_inner {
+  border: 1px solid #8c8c8e;
+  border-bottom-width: 2px;
+  border-bottom-color: #999;
+  color: #333;
+  max-height: 250px;
+  text-shadow: #fff 0 1px 0;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  padding:0 !important;
+  list-style:none;
+}
+
+/* Set a max-height on the options inner */
+.dk_options_inner,
+.dk_touch .dk_options {
+  max-height: 350px;
+}
+
+/******  End Theme ******/
+
+.dk_container {
+  display: none;
+  float: left;
+  position: relative;
+}
+  .dk_container a {
+    outline: 0;
+  }
+
+.dk_toggle {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+
+.dk_open {
+  position: relative;
+}
+  .dk_open .dk_options {
+    display: block;
+  }
+  .dk_open .dk_label {
+    color: inherit;
+  }
+
+.dk_options {
+  display: none;
+  margin-top: -1px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+  .dk_options a,
+  .dk_options a:link,
+  .dk_options a:visited {
+    display: block;
+  }
+  .dk_options_inner {
+    overflow: auto;
+    position: relative;
+  }
+
+.dk_touch .dk_options {
+  overflow: hidden;
+}
+
+.dk_touch .dk_options_inner {
+  max-height: none;
+  overflow: visible;
+}
+
+.dk_fouc select {
+  position: relative;
+  top: -99999em;
+  visibility: hidden;
+}
+
+
+/* ==================== TOOLTIP STYLES ======================================*/
+
+#altToolTip{
+    position:absolute;
+    display:block;
+    max-width:180px;
+    background-color:#555;
+    background-color:rgba(0,0,0,0.6);
+    color:#fff;
+    padding:6px 5px 6px 5px;
+    font-size:80%;
+    top:50px;
+    left:50px;
+    display:none;
+    border-radius:5px;
+}
+#altToolTip:after{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #555;
+    border-top: 7px solid rgba(0,0,0,0.6);
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    margin-left: -7px;
+}
+
+/* ==================== TODO LIST STYLES (used in site development only)=====*/
+/* These styles relate to the auto-generated todo development lists. */
+
+    .todoList{
+            font-size:80%;
+    }
+    
+    .todoItem{
+            background-color:#DDD;
+            display:block;
+            margin-bottom:20px;
+            padding-top:1px;
+            color:#000;
+    }
+    
+    .todoItem p{
+            margin:5px !important;
+    }
+    
+    .todoPath{
+            background-color:#CCD;
+            display:block;
+            padding:2px 5px 3px 5px;
+            color:#444;
+            border-bottom:1px solid #CCC;
+    }
+    
+    .todoPath a{
+            color:#00F;
+    }
+    
+    .todoPerson{
+            font-weight:bold;
+            padding-left:5px;
+    }
+    
+    .todoPriority{
+            display:block;
+            float:right;
+            padding:2px;
+    }
+
+    .todoSectionName{
+    	display:block;
+    	background-color:#CCC;
+    	padding:2px 5px 2px 5px;
+    	color:#000;
+  	font-size:120%;
+  	font-weight:bold;
+    }
+
+
+
+/*=========================================================================*/
+/*-- ADDITIONAL PRINT STYLES ----------------------------------------------*/
+/*=========================================================================*/
+
+@media print{
+  
+      html, body{	
+              color:#000 !important;
+              font-family: arial, Helvetica,sans-serif;
+              font-size:10pt;
+              text-decoration:none;
+      }
+  
+      #main-rightbox{
+   	display:none;  
+      }
+  
+      #main-content, #main{
+    	width:auto;
+      }
+          
+}/* End of @print section */
+
+.devSection{
+	border:5px dotted #F00;
+	color:#F00;
+  	margin-top:30px;
+}
+
+
+/*=========================================================================*/
+/*-- CLEARING STYLES -------------------------------------------------------*/
+/*=========================================================================*/
+
+
+.clearingImg{float:right;margin-left:10px}
+
