@@ -1,0 +1,15 @@
+{
+  "name": "lu-internet-usage-policy",
+  "version": "1.0.0",
+  "description": "Static copy of the Loughborough University Internet Usage Policy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LSUCS/LU-Internet-Usage-Policy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LSUCS/LU-Internet-Usage-Policy/issues"
+  },
+  "homepage": "https://github.com/LSUCS/LU-Internet-Usage-Policy"
+}
